@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+nav{
+    float: left; /* Desplazamos el nav hacia la izquierda */
+    width: 100%;
+}
+  
+nav ul{
+    list-style: none;
+    overflow: hidden; /* Limpiamos errores de float */
+}
+  
+nav ul li{
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+  
+nav ul li a{
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+  
+nav ul li:hover{
+    background: #3ead47;
+}
+
+body{
+    background-color: rgb(120, 120, 196);
+}
+
+footer{
+    background-color: rgb(54, 54, 131);
+    color: rgb(156, 179, 174);
+}
+
+/*body #section .container{
+    padding-top: 80px;
+}*/
+
+/*#navbarScroll{
+    text-align: center;
+}*/
+
+#historia{
+    padding-top: 80px;
+}
+
+#historia h3{
+    padding-left: 10px;
+}
+
+#clientes{
+    padding-top: 80px;
+}
+
+#servicios{
+    padding-top: 80px;  
+}
+
+#ubicacion{
+    padding-top: 80px; 
+}
+
+#horario{
+    padding-top: 80px;
+}
+
+#mediosdepago{
+    padding-top: 80px; 
+}
+
+#contacto {
+    padding-top: 80px;
+}
+
+#contacto h2, #mediosdepago h2, #horario h2, #ubicacion h2, #servicios h2, #clientes h2{
+    background-color: rgb(93, 34, 133);
+    padding-left: 10px;
+    color: rgb(156, 179, 174);
+}
+
+
+.panel-heading h3{ 
+    background-color: rgb(93, 34, 133);
+    color: rgb(156, 179, 174);
+}
+
+#footerDerechos{
+    background-color: rgb(42, 15, 59);
+    color: rgb(156, 179, 174);
+    font-size: 12px;
+}
+
+#mercadoLibre{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+#textoEncima h2{
+    font-size: 3rem;
+    color:black;
+    position: absolute;
+}
+
+#textoAbajo p{
+    color:black;
+    position: absolute;
+}
+
+   
+
+
+
